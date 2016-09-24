@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Harsha Alla</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="Alla_Harsha.css">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="https://www.facebook.com/harsha.3919">Harsha</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="Home.html">Home</a></li>
+      
+      <li class="active"><a href="MyChoice.html">My Choice</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+      <li><a href="About.html">About</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+  <form><br>
+  Name:
+  <input type="text"><br><br>
+  Phone Number:
+  <input type="number"><br><br>
+  Email ID:
+  <input type="email"><br><br>
+  Address:<textarea rows="1" cols="25" name="comment"> </textarea><br><br>
+
+
+    iPhone 7 Quantity:
+    <input type="number" id="p1" min="1" max="10" oninput="calculate()">
+
+    <br><br>
+
+    iPhone 7 Plus Quantity:
+    <input type="number" id="p2" min="1" max="10" oninput="calculate()">
+    
+
+  <br><br>
+
+  Amount Payable:
+  <input  type="number" id="result" readonly>
+  
+  <br><br>
+  <a href="MyChoice.html">
+<input type="button" value="Reset"></a>
+
+   <input type="button" value="Order iPhone" onclick="final()">
+   <h2 id="s1"> <//h2>
+   <h2 id="s2"> </h2>
+
+</form>
+
+
+<script src="A02.js">
+    </script>
+<br>
+
+
+  <footer>
+Copy Rights by <a href="https://www.facebook.com/harsha.3919"> Harsha.</a> All Rights Reserved.</footer>
+
+</body>
+</html>

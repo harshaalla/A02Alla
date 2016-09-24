@@ -1,0 +1,182 @@
+html
+{
+position: relative;
+}
+
+body
+{
+	background-image: url("http://i64.tinypic.com/2czq0g.jpg");
+	color: green;
+	position: relative;
+	font-size: 20px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow-x:hidden;
+	max-width: 100%; 
+}
+
+img
+{
+	position: relative;
+	display: block;
+	margin: auto;
+}
+
+.help
+{
+	position: relative;
+}
+
+iframe
+{
+	position: relative;
+}
+
+p
+{
+	position: relative;
+	font-size: 16px;
+	color: saddlebrown;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1
+{
+position: relative;
+text-align: center;
+font-size: 300%;
+font-style: italic;
+font-weight: bold;
+color: blueviolet;
+}
+
+a:hover 
+{
+background-color: green;
+text-align: center;
+}
+
+form
+{
+	position: relative;
+	left: 12%;
+	top: 18%;
+}
+
+footer
+{
+	position: relative;
+	text-align: center;
+	color: red;
+	font-weight: bolder;
+}
+
+hr
+{
+	position: relative;
+	top: 110px;
+	width: 420px;
+	left: 460px;
+}
+
+.bit
+{
+	position: relative;
+	top: 36px;
+	left: -40%;
+	width: 100px;
+	height: 50px;
+}
+
+.git
+{
+	position: relative;
+	top: 42px;
+	left:-40%;
+	width: 115px;
+	height: 60px;
+}
+
+.fb
+{
+	position: relative;
+	top: 52px;
+	left:-40%;
+	width: 115px;
+	height: 60px;
+}
+
+.gmail
+{
+	position: relative;
+	top: 60px;
+	left:-40%;
+	width: 135px;
+	height: 70px;
+}
+
+.linked
+{
+	position: relative;
+	top: 70px;
+	left:-40%;
+	width: 135px;
+	height: 90px;
+}
+
+.head
+{
+	text-align: center;
+	font-size: 200%;
+	font-style: italic;
+	font-weight: bold;
+	color: deepskyblue;
+}
+
+h3
+{
+text-align: center;
+font-size: 180%;
+font-style: oblique;
+font-weight: bold;
+color: brown;
+}
+
+h4
+{
+	text-align: center;
+}
+
+a:hover 
+{
+background-color: green;
+text-align: center;
+}
+
+h2
+{	
+position: relative;
+text-align: left;
+color: red;
+}
+
+table,td,th
+{
+margin: 0 auto;
+padding: 1px;
+border:1px solid black;
+text-align: center;
+}
+
+th
+{
+	position: relative;
+font-size: 19px;	
+color: red;
+}
+
+td
+{
+	position: relative;
+font-family: "Times New Roman", Times, serif;
+}
